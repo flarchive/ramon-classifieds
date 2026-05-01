@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe composer.phar dump-autoload --no-scripts)",
+      "Bash(/c/laragon/bin/composer/composer.phar dump-autoload:*)",
+      "Bash(/c/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe /c/laragon/bin/composer/composer.phar dump-autoload --no-scripts)",
+      "Read(//c/Program Files/**)",
+      "Bash(\"/c/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" flarum:*)"
+    ]
+  }
+}

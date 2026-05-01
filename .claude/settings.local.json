@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(composer --version)",
+      "Bash(\"/c/laragon/bin/php/php-8.3.16-Win32-vs16-x64/php.exe\" -v)",
+      "Bash(export PATH=\"/c/laragon/bin/php/php-8.3.16-Win32-vs16-x64:$PATH\")",
+      "Bash(php \"/c/laragon/bin/composer/composer.phar\" --version)",
+      "Bash(cmd /c \"e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\extend.php\")",
+      "Bash(cmd /c \"e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\MaloteOcorrencia.php\")",
+      "Bash(cmd /c \"e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\Api\\\\Controller\\\\ListMaloteOcorrenciasController.php\")",
+      "Bash(cmd /c \"e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\Api\\\\Controller\\\\CreateMaloteOcorrenciaController.php\")",
+      "Bash(cmd /c \"e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\extend.php && e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\MaloteOcorrencia.php && e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\Malote.php && e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\Api\\\\Controller\\\\ListMaloteOcorrenciasController.php && e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\Api\\\\Controller\\\\CreateMaloteOcorrenciaController.php && e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\src\\\\Service\\\\MaloteEmailSender.php\")",
+      "Bash(cmd /c \"e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\extend.php 2>&1 1>&2\")",
+      "Bash(cmd /c \"e:\\\\laragon\\\\bin\\\\php\\\\php-8.3.16-Win32-vs16-x64\\\\php.exe -l e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\extend.php > e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\lint_output.txt 2>&1 && type e:\\\\laragon\\\\www\\\\app\\\\workbench\\\\malotes\\\\lint_output.txt\")",
+      "Bash(yarn workspace *)",
+      "Bash(npx --prefix e:/laragon/www/app flarum-webpack-config)"
+    ]
+  }
+}
