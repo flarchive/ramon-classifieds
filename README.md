@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of ramon/classifieds.** Not for installation: use [Packagist](https://packagist.org/packages/ramon/classifieds) or the [upstream repository](https://github.com/ram0ng1/classifieds).
 
-**0** versions archived · Latest: [`1.0.0`](https://github.com/flarchive/ramon-classifieds/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0.0-rc.1`
+**1** versions archived · Latest: [`1.0.0`](https://github.com/flarchive/ramon-classifieds/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0.0-rc.1`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2026-05-01 | `^2.0.0-rc.1` | [Browse](https://github.com/flarchive/ramon-classifieds/tree/archive/v1.0.0) |
 
 Catalog entry: [packages/ramon-classifieds.json](https://github.com/flarchive/archive-index/blob/main/packages/ramon-classifieds.json)
 
